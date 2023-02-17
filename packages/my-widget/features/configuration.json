@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/liferay/liferay-js-toolkit/master/resources/schemas/configuration.schema.json",
+  "system": {
+    "category": "my_widget",
+    "name": "My Widget",
+    "fields": {
+      "timeout": {
+        "type": "number",
+        "name": "Timeout",
+        "description": "timeout-help",
+        "default": 20
+      }
+    }
+  },
+  "portletInstance": {
+    "fields": {}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "preset": "liferay-npm-bundler-preset-create-react-app",
+  "create-jar": {
+    "output-dir": "dist",
+    "features": {
+      "js-extender": true,
+      "web-context": "/my-widget",
+      "localization": "features/localization/Language",
+      "configuration": "features/configuration.json"
+    }
+  },
+  "dump-report": false,
+  "verbose": false,
+  "no-tracking": true,
+  "max-parallel-files": 16
+}
